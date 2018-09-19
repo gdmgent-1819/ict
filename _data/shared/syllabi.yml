@@ -1,6 +1,22 @@
 # --------------
 # DO NOT MODIFY!
 # --------------
+
+- id: ICT
+  type: MODULE
+  lang: nl
+  color: primary
+  title:
+    short: CMSDEV
+    long : CMS Development
+  academic-year: 2018-2019
+  authors: # First is owner
+    - KR
+  programme:
+    institute : AHS
+    department: PBAGDM
+    major     : MMP
+
 - id: 1819-CMSDEVELOPMENT
   type: MODULE
   lang: nl

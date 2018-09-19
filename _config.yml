@@ -1,14 +1,14 @@
 # Site settings
 # -------------
-baseurl : /wot # the subpath of your site, e.g. /blog
+baseurl : /ict # the subpath of your site, e.g. /blog
 host    : 127.0.0.1
-port    : 4108
+port    : 4199
 
 # Course
 # ------
-syllabus-id: 1819-WOT
+syllabus-id: ICT
 
-hero_introduction : Syllabus voor het onderdeel WOT
+hero_introduction : ICT
 hero_image        : /syllabus-resources/assets/images/header-dev.jpg
 words_per_minute  : 60
 
@@ -16,8 +16,8 @@ words_per_minute  : 60
 # ---
 domain      : Artevelde University College Ghent
 subdomain   : Bachelor of Graphical and Digital Media
-title       : Web of Things
-description : Syllabus voor het onderdeel WOT
+title       : ICT
+description : ICT
 author      : Bachelor of Graphical and Digital Media | Artevelde University College Ghent
 copyright   : Copyright 2010-18 Artevelde University College Ghent. All Rights Reserved.
 
