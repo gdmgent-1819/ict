@@ -25,7 +25,7 @@ Via GitHub (of BitBucket, GitLab, ...) kunnen meerdere mensen samenwerken aan 1 
 Aanmaak GitHub account
 ----------------------
 
-We zullen voor het academiejaar 2017-18 éénmalig een [GitHub-account](https://github.com/join?source=header-home) aanmaken, deze bevat de volgende samenstelling: `gdm-1718-{your AHS-loginname}`, bv.: `gdm-1718-phildp` (allemaal lowercase pf kleine letters). Gebruik ook jouw AHS-emailadres en jouw echte naam. Vergeet ook niet een duidelijke foto te plaatsen bij jouw profiel. GitHub zorgt voor jullie en biedt ook gratis een [packs for education](https://education.github.com/pack/join) aan. Dit is o.a. handig om **private repositories** aan te maken.
+We zullen voor het academiejaar 2018-19 éénmalig een [GitHub-account](https://github.com/join?source=header-home) aanmaken, deze bevat de volgende samenstelling: `gdm-1819-{your AHS-loginname}`, bv.: `gdm-1819-phildp` (allemaal lowercase pf kleine letters). Gebruik ook jouw AHS-emailadres en jouw echte naam. Vergeet ook niet een duidelijke foto te plaatsen bij jouw profiel. GitHub zorgt voor jullie en biedt ook gratis een [packs for education](https://education.github.com/pack/join) aan. Dit is o.a. handig om **private repositories** aan te maken.
 
 Heb je al een account op GitHub die jouw AHS-emailadres gebruikt, dan volstaat het enkel jouw gebruikersnaam te veranderen via [Account](https://github.com/settings/admin). Deze wijziging duurt een paar minuten en kan ervoor zorgen dat o.a. links naar persoonlijke Gists niet meer zullen werken.
 
