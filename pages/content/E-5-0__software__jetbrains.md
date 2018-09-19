@@ -22,12 +22,11 @@ Licentie
 --------
 Surf naar <https://www.jetbrains.com/shop/eform/students> en vul het formulier in.
 
-Voorbeeld:
-- Apply with: university email address
-- Status: I'm a student
-- Name: vul je voornaam en familienaam in.
+Samenvatting van in te geven informatie:
+- Apply with: selecteer "UNIVERSITY EMAIL ADDRESS"
+- Status: selecteer "I'm a student"
+- Name: je eigen voornaam en familienaam
 - Email address: je persoonlijke e-mailadres van Arteveldehogeschool
-- Country/region: selecteer hier Belgium
 
 Gebruik hierbij steeds je e-mailadres van de Arteveldehogeschool!
 De validatie of je recht hebt op een licentie verloopt in dit geval via de domeinnaam van je e-mailadres.
