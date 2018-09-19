@@ -37,8 +37,8 @@ Nieuwe versies van een app worden eerst **lokaal bewaard** in een **lokale copy 
 Installatie 
 -----------
 
- - [Installatie op macOS]({{ site.baseurl }}{% link pages/content/6-2-1__tools__git__mac.md %})
- - [Installatie op Windows]({{ site.baseurl }}{% link pages/content/6-2-2__tools__git__win.md %})
+ - [Installatie op macOS]({{ site.baseurl }}{% link pages/content/F-2-1__tools__git__mac.md %})
+ - [Installatie op Windows]({{ site.baseurl }}{% link pages/content/F-2-2__tools__git__win.md %})
 
 Configuratie
 ------------
