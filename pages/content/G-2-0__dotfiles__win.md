@@ -41,6 +41,22 @@ C:> code --version
 
 Nu kan je vanuit de **Opdrachtprompt** *(Command)* bestanden open met [Visual Studio Code][].
 
+### Scoop
+
+Open **Windows Powershell** en voer onderstaande opdracht uit.
+
+{% highlight posh %}
+PS> iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+{% endhighlight %}
+
+### Git
+
+Open **Windows Powershell** en voer onderstaande opdracht uit.
+
+{% highlight posh %}
+PS> scoop install git
+{% endhighlight %}
+
 ### PowerShell
 {%- assign PowerShell-version = '6.1.0' %}
 
