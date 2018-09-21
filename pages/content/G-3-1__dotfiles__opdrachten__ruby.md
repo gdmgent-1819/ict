@@ -20,7 +20,13 @@ Installeer eerst [Ruby][] met `InstallRuby`
 PS> InstallRuby
 {% endhighlight %}
 
-Open het PowerShell-venster opnieuw.
+Open het PowerShell Core-venster opnieuw.
+
+Op Windows moet je ook nog de DeveloperKit installeren.
+
+{% highlight posh %}
+PS> InstallRubyDevelopmentKit
+{% endhighlight %}
 
 Bundler Installeren
 -------------------
@@ -46,6 +52,12 @@ Daarna kan je in de map een `Gemfile` maken om [Jekyll][] met Bundler te install
 {% highlight posh %}
 PS> Set-Location mijn-jekyll-project
 PS> New-Item -Name Gemfile -ItemType File
+{% endhighlight %}
+
+Open de map met Visual Studio Code
+
+{% highlight posh %}
+PS> code .
 {% endhighlight %}
 
 {% highlight ruby linenos %}

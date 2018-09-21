@@ -57,58 +57,32 @@ Open **Windows Powershell** en voer onderstaande opdracht uit.
 PS> scoop install git
 {% endhighlight %}
 
-### PowerShell
+### PowerShell Core
 {%- assign PowerShell-version = '6.1.0' %}
 
-Download de *installer* (`.msi`) onderaan de pagina voor PowerShell {{ PowerShell-version }} of later:
+Download de *installer* (`.msi`) onderaan de pagina voor PowerShell Core {{ PowerShell-version }} of later:
 
-[*&nbsp;*{:.fas.fa-fw.fa-download}PowerShell voor Windows][PowerShell]{:.button.button--standard.button--primary}
+[*&nbsp;*{:.fas.fa-fw.fa-download}PowerShell Core voor Windows][PowerShell]{:.button.button--standard.button--primary}
 
-Na de installatie open je **PowerShell {{ PowerShell-version }}** als **administrator**.
+Na de installatie open je **PowerShell Core {{ PowerShell-version }}** als **administrator**.
 
 > Opmerking
 > ---
-> **PowerShell {{ PowerShell-version }}** is niet hetzelfde als **Windows PowerShell** of **Windows PowerShell ISE**!
+> **PowerShell Core {{ PowerShell-version }}** is niet hetzelfde als **Windows PowerShell** of **Windows PowerShell ISE**!
 {:.card.card-remark}
 
 > Opgelet
 > ---
-> Open **PowerShell {{ PowerShell-version }}** ALTIJD als **administrator**.
+> Open **PowerShell Core {{ PowerShell-version }}** ALTIJD als **administrator**.
 {:.card.card-warning}
 
 > Windows
 > ---
-> Om **PowerShell {{ PowerShell-version }}** altijd als administrator te openen, open je eerst de bestandslocatie.  
+> Om **PowerShell Core {{ PowerShell-version }}** altijd als administrator te openen, open je eerst de bestandslocatie.  
 > <kbd class="menu"><kbd><i class="fab fa-windows"></i></kbd>&#9656;<kbd>PowerShell {{ PowerShell-version }}</kbd>&#9656;<kbd>RMK</kbd>&#9656;<kbd>Bestandslocatie openen</kbd></kbd>  
 > Pas vervolgens de eigenschappen van het bestand aan.  
-> <kbd class="menu"><kbd><i class="fa fa-file-o"></i> PowerShell {{ PowerShell-version }}</kbd>&#9656;<kbd>RMK</kbd>&#9656;<kbd>Eigenschappen</kbd>&#9656;<kbd>Geavanceerd...</kbd>&#9656;<kbd>Als administrator uitvoeren</kbd></kbd>
+> <kbd class="menu"><kbd><i class="fa fa-file-o"></i> PowerShell Core {{ PowerShell-version }}</kbd>&#9656;<kbd>RMK</kbd>&#9656;<kbd>Eigenschappen</kbd>&#9656;<kbd>Geavanceerd...</kbd>&#9656;<kbd>Als administrator uitvoeren</kbd></kbd>
 {:.card.card-windows}
-
-### Git
-
-Download en installeer:
-
-[*&nbsp;*{:.fab.fa-fw.fa-git}Git][]{:.button.button--standard.button--primary}
-
-Gebruik deze instellingen (laat de overige op de standaardinstellingen staan):
-
- - `Use Git and optional Unix tools from the Windows Command Prompt`
- - `Use the OpenSSL library`
- - `Checkout windows-style, commit Unix-style line endings`
- - `Use Windows' default console window`
- - `Enable files system caching`
- - `Enable Git Credential Manager`
-
-Open **PowerShell {{ PowerShell-version }}** en voer `git --version` uit om te testen of Git geïnstalleerd is.
-
-> Opgelet
-> ---
-> Onderstaande PowerShell-opdracht knip je met <kbd class="keyboard"><kbd>Ctrl</kbd>+<kbd>C</kbd></kbd> en plak je met <kbd>RMK</kbd> <mark class="marker--underline marker--yellow">zonder <code>PS&gt; </code> </mark> in het PowerShell-venster.
-{:.card.card-warning}
-
-{% highlight posh %}
-PS> git --version
-{% endhighlight %}
 
 Installatie
 -----------
@@ -124,7 +98,7 @@ Ga naar de Home-map en kloon de GitHub-repository.
 
 {% highlight posh %}
 PS> Set-Location -Path $Home
-PS> git clone https://github.com/gdmgent/dotfiles/ --single-branch
+PS> git clone https://github.com/gdmgent/dotfiles.git --single-branch
 {% endhighlight %}
 
 ### Profiel instellen
@@ -139,4 +113,4 @@ PS> Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 PS> .\install.ps1
 {% endhighlight %}
 
-Open een nieuw **PowerShell {{ PowerShell-version }}**-venster en je zou `gdm.gent Dotfiles on PowerShell Core {{ PowerShell-version }} for Windows` te zien moeten krijgen, zonder rode foutmeldingen.
+Open een nieuw **PowerShell Core {{ PowerShell-version }}**-venster en je zou `gdm.gent Dotfiles on PowerShell Core {{ PowerShell-version }} for Windows` te zien moeten krijgen, zonder rode foutmeldingen.

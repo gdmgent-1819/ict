@@ -46,7 +46,7 @@ Om te testen of de opdracht goed geïnstalleerd is, open je de **Terminal** en v
 
 > Opgelet
 > ---
-> Onderstaande PowerShell-opdracht knip je met <kbd class="keyboard"><kbd>Cmd</kbd>+<kbd>C</kbd></kbd> en plak je met <kbd>RMK</kbd> <mark class="marker--underline marker--yellow">zonder <code>$ </code> </mark> in het Terminal-venster.
+> Onderstaande PowerShell Core-opdracht knip je met <kbd class="keyboard"><kbd>Cmd</kbd>+<kbd>C</kbd></kbd> en plak je met <kbd>RMK</kbd> <mark class="marker--underline marker--yellow">zonder <code>$ </code> </mark> in het Terminal-venster.
 {:.card.card-warning}
 
 {% highlight terminal %}
@@ -55,24 +55,24 @@ $ code --version
 
 Nu kan je vanuit de **Terminal** bestanden open met [Visual Studio Code][].
 
-### PowerShell
+### PowerShell Core
 
 Download de *installer* (`.pkg`) onderaan de pagina:
 
-[*&nbsp;*{:.fas.fa-fw.fa-download}PowerShell voor macOS][PowerShell]{:.button.button--standard.button--primary}
+[*&nbsp;*{:.fas.fa-fw.fa-download}PowerShell Core voor macOS][PowerShell]{:.button.button--standard.button--primary}
 
-Na de installatie moeten we PowerShell nog instellen als de standaard Shell.
+Na de installatie moeten we PowerShell Core nog instellen als de standaard Shell.
 
 <kbd class="menu"><kbd>Terminal</kbd>&#9656;<kbd>Voorkeuren&hellip;</kbd>&#9656;<kbd>Algemeen</kbd></kbd> en verander:
 
  - Open shells met:
    - Commando (volledig pad): `/usr/local/bin/pwsh -NoLogo`
 
-Open een nieuw **Terminal**-venster en vraag de versie van PowerShell op.
+Open een nieuw **Terminal**-venster en vraag de versie van PowerShell Core op.
 
 > Opgelet
 > ---
-> Onderstaande PowerShell-opdracht knip je met <kbd class="keyboard"><kbd>Ctrl</kbd>+<kbd>C</kbd></kbd> en plak je met <kbd class="keyboard"><kbd>Cmd</kbd>+<kbd>V</kbd></kbd> <mark class="marker--underline marker--yellow">zonder <code>PS&gt; </code> </mark> in het PowerShell-venster.
+> Onderstaande PowerShell Core-opdracht knip je met <kbd class="keyboard"><kbd>Ctrl</kbd>+<kbd>C</kbd></kbd> en plak je met <kbd class="keyboard"><kbd>Cmd</kbd>+<kbd>V</kbd></kbd> <mark class="marker--underline marker--yellow">zonder <code>PS&gt; </code> </mark> in het PowerShell Core-venster.
 {:.card.card-warning}
 
 {% highlight posh %}
@@ -126,7 +126,7 @@ PS> Set-Location -Path dotfiles
 PS> .\install.ps1
 {% endhighlight %}
 
-Open een nieuw **Terminal**-venster en je zou `gdm.gent Dotfiles on PowerShell for macOS` te zien moeten krijgen, zonder rode foutmeldingen.
+Open een nieuw **Terminal**-venster en je zou `gdm.gent Dotfiles on PowerShell Core for macOS` te zien moeten krijgen, zonder rode foutmeldingen.
 
 
 Post-installatie
