@@ -10,14 +10,17 @@ title_long: Microsoft Windows
 Updaten
 -------
 
-**Windows Update** kan volledig in de achtergrond werken. De update heeft enkel attentie nodig wanneer we de computer moeten herstarten. Om de noodzakelijke updates te bekijken navigeren we naar de `Settings (Windows key + I) > Update & Security > Windows Update`. Klik op de `link Check for updates` om de beschikbare updates te bekijken.
+**Windows Update** kan volledig in de achtergrond werken. De update heeft enkel attentie nodig wanneer we de computer moeten herstarten.
 
-Onder de `Advanced options link` kunnen we o.a. instellen hoe updates geïnstalleerd zullen worden. We hebben een voorkeur voor de instelling: `Notify to schedule restart`.
+<kbd class="menu"><kbd>Windows-instellingen (<kbd class="keyboard"><kbd><i class="fab fa-windows"></i></kbd>+<kbd>I</kbd></kbd>)</kbd>&#9656;<kbd>Bijwerken en beveiliging</kbd>&#9656;<kbd>Windows Update</kbd>&#9656;<kbd>Naar updates zoeken</kbd></kbd>
+
+Onder de `Geavanceerde opties` kunnen we o.a. instellen hoe updates geïnstalleerd zullen worden.
 
 Anti-virus
 ----------
 
-[Sophos Home](https://home.sophos.com/) beschermd elke Mac en PC van malware, viruses, ransomware, en ongepaste websites. Het gebruikt dezelfde technologieën die worden gebruikt in grote bedrijven om hun ondernemingen te beschermen.
+[Sophos Home Free Edition](https://home.sophos.com/) beschermt elke Mac en Windows-computer tegen malware, viruses, ransomware en ongepaste websites. Het gebruikt dezelfde technologieën in grote ondernemingen gebruiken om zich te beveiligen.
+
 
 Anti-malware
 ------------

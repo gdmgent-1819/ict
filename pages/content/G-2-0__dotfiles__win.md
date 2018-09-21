@@ -14,14 +14,14 @@ title_long: Dotfiles Installeren op Windows
 
 > Opmerking
 > ---
-> Deze installatie-instructies zijn bedoeld voor *&nbsp;*{:.fab.fa-fw.fa-windows}**Windows 10** 1709 (Versie 10.0.**16299**), maar werken waarschijnlijk ook voor andere versies van Windows.
+> Deze installatie-instructies zijn bedoeld voor *&nbsp;*{:.fab.fa-fw.fa-windows}**Windows 10** 1803 (Versie 10.0.**17134.285**), maar werken waarschijnlijk ook voor andere versies van Windows.
 {:.card.card-remark}
 
 > Tip
 > ---
 > Installeer de **allerlaatste versie** van Windows.
 >
-><kbd class="menu"><kbd><i class="fa fa-windows"></i></kbd>&#9656;<kbd>Instellingen</kbd>&#9656;<kbd>Bijwerken en Beveiliging</kbd>&#9656;<kbd>Naar updates zoeken</kbd></kbd>
+><kbd class="menu"><kbd><i class="fab fa-windows"></i></kbd>&#9656;<kbd>Instellingen</kbd>&#9656;<kbd>Bijwerken en Beveiliging</kbd>&#9656;<kbd>Naar updates zoeken</kbd></kbd>
 >
 > Als de allerlaatste update (nog) niet beschikbaar is, kan die installeren met [Windows 10 Upgrade](https://www.microsoft.com/nl-nl/software-download//windows10).
 {:.card.card-tip}
@@ -42,7 +42,7 @@ C:> code --version
 Nu kan je vanuit de **Opdrachtprompt** *(Command)* bestanden open met [Visual Studio Code][].
 
 ### PowerShell
-{%- assign PowerShell-version = '6.0.2' %}
+{%- assign PowerShell-version = '6.1.0' %}
 
 Download de *installer* (`.msi`) onderaan de pagina voor PowerShell {{ PowerShell-version }} of later:
 
@@ -63,7 +63,7 @@ Na de installatie open je **PowerShell {{ PowerShell-version }}** als **administ
 > Windows
 > ---
 > Om **PowerShell {{ PowerShell-version }}** altijd als administrator te openen, open je eerst de bestandslocatie.  
-> <kbd class="menu"><kbd><i class="fa fa-windows"></i></kbd>&#9656;<kbd>PowerShell {{ PowerShell-version }}</kbd>&#9656;<kbd>RMK</kbd>&#9656;<kbd>Bestandslocatie openen</kbd></kbd>  
+> <kbd class="menu"><kbd><i class="fab fa-windows"></i></kbd>&#9656;<kbd>PowerShell {{ PowerShell-version }}</kbd>&#9656;<kbd>RMK</kbd>&#9656;<kbd>Bestandslocatie openen</kbd></kbd>  
 > Pas vervolgens de eigenschappen van het bestand aan.  
 > <kbd class="menu"><kbd><i class="fa fa-file-o"></i> PowerShell {{ PowerShell-version }}</kbd>&#9656;<kbd>RMK</kbd>&#9656;<kbd>Eigenschappen</kbd>&#9656;<kbd>Geavanceerd...</kbd>&#9656;<kbd>Als administrator uitvoeren</kbd></kbd>
 {:.card.card-windows}
@@ -83,11 +83,11 @@ Gebruik deze instellingen (laat de overige op de standaardinstellingen staan):
  - `Enable files system caching`
  - `Enable Git Credential Manager`
 
-Open **PowerShell 6.0** en voer `git --version` uit om te testen of Git geïnstalleerd is.
+Open **PowerShell {{ PowerShell-version }}** en voer `git --version` uit om te testen of Git geïnstalleerd is.
 
 > Opgelet
 > ---
-> Onderstaande PowerShell-opdracht knip je met <kbd>Ctrl</kbd>+<kbd>C</kbd> en plak je met <kbd>RMK</kbd> <mark class="marker--underline marker--yellow">zonder <code>PS&gt; </code> </mark> in het PowerShell-venster.
+> Onderstaande PowerShell-opdracht knip je met <kbd class="keyboard"><kbd>Ctrl</kbd>+<kbd>C</kbd></kbd> en plak je met <kbd>RMK</kbd> <mark class="marker--underline marker--yellow">zonder <code>PS&gt; </code> </mark> in het PowerShell-venster.
 {:.card.card-warning}
 
 {% highlight posh %}
