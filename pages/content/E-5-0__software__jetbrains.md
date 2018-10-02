@@ -1,7 +1,7 @@
 ---
 layout   : course
 permalink: software/jetbrains/
-published: false
+published: true
 #
 title     : JetBrains
 title_long: JetBrains Toolbox App - PhpStorm - DataGrip
