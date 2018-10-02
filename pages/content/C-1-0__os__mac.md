@@ -10,11 +10,7 @@ title_long: Apple macOS
 Updaten
 -------
 
-Update het macOS systeem naar de laatste versie (op 01-08-2017 [macOS Sierra 10.12.6](https://support.apple.com/nl-nl/HT207835)). Deze verbetert de stabiliteit en beveiliging van je computer. Om je computer te updaten ga je naar het `apple logo`, vervolgens selecteer je de optie `Over deze MAC`. In het geopende venster klik je op de `knop Software-update`. Installeer vervolgens de macOS Sierra-update. Je kan ook rechtstreeks naar de App Store app gaan en vervolgens klikken op de update knop. Je MAC moet wel herstart worden tijdens de installatie.
-
-### Xcode
-
-[Xcode](https://developer.apple.com/xcode/) is een IDE voor macOS en bevat tools om software te ontwikkelen voor macOS, iOS, watchOS, tvOS, .NET Core, ... . Een update naar de laatste versie is handig om eventuele conflicten te vermijden. Op 01-08-2017 is de versie 8.3.3 beschikbaar op je macOS. Gelieve deze update te installeren via de App Store.
+Update het macOS systeem naar de laatste versie (op 21-09-2018 [macOS High Sierra 10.13.6](https://support.apple.com/nl-nl/HT207835)). Deze verbetert de stabiliteit en beveiliging van je computer. Om je computer te updaten ga je naar het `apple logo`, vervolgens selecteer je de optie `Over deze MAC`. In het geopende venster klik je op de knop `Software-update&hellip;`. Installeer vervolgens de macOS High Sierra-update. Je kan ook rechtstreeks naar de App Store app gaan en vervolgens klikken op de update knop. Je Mac moet wel herstart worden tijdens de installatie.
 
 Anti-virus
 ----------
@@ -24,7 +20,7 @@ Anti-virus
 > Het is een hardnekkige mythe dat macOS immuun is voor computervirussen. Hoewel schadelijke software voor macOS nog altijd zeldzaam is, bestaat ze wel degelijk. Windows-virussen zijn onschadelijk op macOS, maar ze kunnen doorgegeven worden aan Windows-toestellen waar ze wel gevaarlijk zijn.
 {:.card.card-warning}
 
-[Sophos Home](https://home.sophos.com/) beschermt elke Mac en PC van malware, viruses, ransomware, en ongepaste websites. Het gebruikt dezelfde technologieën die worden gebruikt in grote bedrijven om hun ondernemingen te beschermen.
+[Sophos Home Free Edition](https://home.sophos.com/) beschermt elke Mac en Windows-computer tegen malware, viruses, ransomware en ongepaste websites. Het gebruikt dezelfde technologieën in grote ondernemingen gebruiken om zich te beveiligen.
 
 Anti-malware
 ------------
