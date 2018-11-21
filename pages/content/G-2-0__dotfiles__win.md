@@ -113,4 +113,4 @@ PS> Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 PS> .\install.ps1
 {% endhighlight %}
 
-Open een nieuw **PowerShell Core {{ PowerShell-version }}**-venster en je zou `gdm.gent Dotfiles on PowerShell Core {{ PowerShell-version }} for Windows` te zien moeten krijgen, zonder rode foutmeldingen.
+Open een nieuw **PowerShell Core {{ PowerShell-version }}**-venster en je zou `gdm.gent Dotfiles 0000.00.00a in PowerShell Core {{ PowerShell-version }} on Windows` te zien moeten krijgen, zonder rode foutmeldingen.
