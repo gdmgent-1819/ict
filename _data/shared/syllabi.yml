@@ -1,17 +1,67 @@
 # --------------
 # DO NOT MODIFY!
 # --------------
-
-- id: ICT
+- id: 1819-BS
   type: MODULE
   lang: nl
   color: primary
   title:
-    short: ICT
-    long : ICT
+    short: FunGDM-BS
+    long : Besturingssystemen
   academic-year: 2018-2019
   authors: # First is owner
-    - KR
+    - OPR
+  programme:
+    institute : AHS
+    department: PBAGDM
+
+- id: 1819-NMD2
+  type: MODULE
+  lang: nl
+  color: primary
+  title:
+    short: NMD2
+    long : New Media Design II
+  academic-year: 2018-2019
+  authors: # First is owner
+    - OPR
+    - SA
+    - EVR
+    - BM
+  programme:
+    institute : AHS
+    department: PBAGDM
+    major     : CMO
+
+- id: 1819-NMD3
+  type: MODULE
+  lang: nl
+  color: primary
+  title:
+    short: NMD3
+    long : New Media Design III
+  academic-year: 2018-2019
+  authors: # First is owner
+    - OPR
+    - SA
+    - EVR
+    - BM
+  programme:
+    institute : AHS
+    department: PBAGDM
+    major     : CMO
+
+- id: 1819-BAP-CMO
+  type: MODULE
+  lang: nl
+  color: primary
+  title:
+    short: BAPCMO
+    long : Bachelorproef CMO
+  academic-year: 2018-2019
+  authors: # First is owner
+    - SA
+    - BM
   programme:
     institute : AHS
     department: PBAGDM
